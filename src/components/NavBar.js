@@ -9,7 +9,9 @@ class NavBar extends Component {
         return (
             <div>
                 <NavWrapper className="navbar navbar-expand-sm bg-dark navbar-dark px-sm-5 rounded" >
-<Link to = "/"/> < img src={logo} alt="store"  style={{ width: "3rem", }}  className="navbar-brand"/>
+<Link to = "/">
+< img src={logo} alt="store"  style={{ width: "3rem", }}  className="navbar-brand"/>
+</Link> 
   <ul className = "navbar-nav align-items-center">
   <li className="nav-item ml-5">
   <Link to="/" className="nav-link">PORSCHE</Link>
