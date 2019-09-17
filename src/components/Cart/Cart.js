@@ -1,9 +1,9 @@
 import React, { Component } from "react";
 import Title from "../Title";
-import CartColumns from "/Users/yuriikalashnikov/Desktop/online store/store/src/components/Cart/CartColumn.js";
+import CartColumns from "./CartColumn";
 import CartList from "./CartList";
 import CartTotals from "./CartTotals";
-import { ProductConsumer } from "/Users/yuriikalashnikov/Desktop/online store/store/src/contexApi.js";
+import { ProductConsumer } from "../../contexApi";
 import EmptyCart from "./EmptyCart";
 
 export default class Store extends Component {
